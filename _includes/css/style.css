@@ -118,16 +118,16 @@ a:focus {
 }
 
 .navbar-default .navbar-nav > li > a:hover {
-	color: {{ site.colors.primary }};
+	color: {{ site.colors.secondary }};
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-	color: {{ site.colors.primary }};
+	color: {{ site.colors.secondary }};
 	background-color: transparent;
 }
 
 .navbar-default {
-	background-color: {{ site.colors.secondary }};
+	background-color: {{ site.colors.primary }};
 	border-color: transparent;
 }
 
@@ -358,7 +358,7 @@ a:focus {
 #footerwrap {
 	padding-top: 60px;
 	padding-bottom: 60px;
-	background: {{ site.colors.secondary }};
+	background: {{ site.colors.primary }};
 }
 
 #footerwrap p {
