@@ -2,7 +2,7 @@
 
 # Site settings
 title: RailsMG
-description: "Website do grupo de usuários Rails de Minas Gerais"
+description: "Website do grupo de usuários Ruby de Minas Gerais"
 analytics: #Google analytics code in the format XX-nnnnnnnn-n
 baseurl: "" #important: start with /
 url: ""
