@@ -283,30 +283,6 @@ a:focus {
 	padding: 15px;
 }
 
-.tpl6 h3
-{
-	color:#fff;
-	margin:0;
-	padding:40px 5px 0;
-	font-size:16px;
-	text-transform:uppercase;
-}
-.tpl6 .dmbutton
-{
-	display:inline-block;
-	margin:30px 5px 20px 5px;
-	font-size:13px;
-}
-
-.tpl6 .bg
-{
-	height:100%;
-	width:100%;
-	background-color:{{ site.colors.primary }};
-	background-color:rgba({{ site.colors.primary_rgb }},.9);
-	text-align:center;
-}
-
 /* Footer */
 #footerwrap {
 	padding-top: 60px;
