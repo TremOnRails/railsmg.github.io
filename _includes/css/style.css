@@ -215,26 +215,60 @@ a:focus {
 	SITE WRAPS
 ################################################################# */
 
-#headerwrap {
-	background-color: {{ site.colors.primary }};
-	min-height: 0px;
-	padding-top: 100px;
-	padding-bottom: 50px;
-	text-align: center;
+/* Testimonials Wrap */
+#twrapback {
+    background-color: {{ site.colors.primary }};
+    background-color:rgba({{ site.colors.primary_rgb }},.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
-#headerwrap h3, h5 {
+#twrap {
+  background: url(../img/t-back.jpg) no-repeat center top;
+  position: relative;
+  margin-top: 0px;
+	padding-top:100px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 450px;
+	width: 100%;
+
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#twrap h3, h5 {
 	color: white;
 	font-weight: 400;
 }
 
-#headerwrap h1 {
+#twrap h1 {
 	color: white;
 	margin-bottom: 25px;
 }
 
-#headerwrap .img-responsive {
-	margin: 0 auto;
+
+#twrap i {
+	font-size: 50px;
+	color: white;
+	margin-bottom: 25px;
+}
+
+#twrap p {
+	color: white;
+	font-size: 15px;
+	line-height: 30px;
 }
 
 /* Services Wrap */
@@ -271,63 +305,6 @@ a:focus {
 	background-color:{{ site.colors.primary }};
 	background-color:rgba({{ site.colors.primary_rgb }},.9);
 	text-align:center;
-}
-
-/* Testimonials Wrap */
-#twrapback {
-    background-color: {{ site.colors.primary }};
-    background-color:rgba({{ site.colors.primary_rgb }},.8);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-
-#twrap {
-    background: url(../img/t-back.jpg) no-repeat center top;
-    position: relative;
-    margin-top: 0px;
-	padding-top:60px;
-	text-align:center;
-	background-attachment: relative;
-	background-position: center center;
-	min-height: 450px;
-	width: 100%;
-	
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
-
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
-#twrap i {
-	font-size: 50px;
-	color: white;
-	margin-bottom: 25px;
-}
-
-#twrap p {
-	color: white;
-	font-size: 15px;
-	line-height: 30px;
-}
-
-/* clients logo */
-#cwrap {
-	background: #f7f7f7;
-	margin-top: 0px;
-	padding-top: 80px;
-	padding-bottom: 100px;
-}
-
-#cwrap h3 {
-	margin-bottom: 60px;
 }
 
 /* Footer */
