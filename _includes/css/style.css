@@ -342,7 +342,7 @@ a:focus {
 }
 
 #footerwrap h4 {
-	color: {{ site.colors.footer_heading }};
+	color: {{ site.colors.footer_content }};
 }
 
 #footerwrap i {
@@ -352,7 +352,7 @@ a:focus {
 }
 
 #footerwrap i:hover {
-	color: {{ site.colors.primary }}
+	color: {{ site.colors.secondary }}
 }
 
 /*	################################################################
